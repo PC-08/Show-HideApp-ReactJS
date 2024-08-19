@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'roboto';
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+.head {
+  color: white;
+}
+
+.name-card {
+  text-align: center;
+  margin-top: 15px;
+  background-color: #fddddb;
+  font-weight: bold;
+  width: 250px;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.name-container {
+  text-align: center;
+  margin: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.btn {
+  color: #dd1264;
+  font-weight: bold;
+  font-size: 13px;
+  border: 0px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.names-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 576px) {
+  .names-container {
+    flex-direction: column;
+  }
+
+  .name-container {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
